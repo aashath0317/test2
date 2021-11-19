@@ -1,8 +1,14 @@
 This is a Telegram Bot written in Python for mirroring files on the Internet to your Google Drive or Telegram. Based on [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot)
+
+simply just click and deploy to heroku
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/aashath0317/test2)
 # Features:
 
 ## By me
+- heroku ban bypassed with new docker code.
+
+## From official and Other Repositories
 - qBittorrent
 - Select files from Torrent before downloading using qbittorrent
 - Leech (splitting, thumbnail for each user, setting as document or as media for each user)
@@ -23,8 +29,6 @@ This is a Telegram Bot written in Python for mirroring files on the Internet to 
 - Mirror/Leech by reply (soon will add for watch and clone)
 - Search for torrents with variable plugins using qBittorrent search engine
 - Many bugs has been fixed
-
-## From official and Other Repositories
 - Mirror direct download links, Torrent, and Telegram files to Google Drive
 - Mirror Mega.nz links to Google Drive (If you have non-premium Mega account, it will limit download to 5GB per 6 hours)
 - Copy files from someone's Drive to your Drive (Using Autorclone)
@@ -67,7 +71,7 @@ Deploying is pretty much straight forward and is divided into several steps as f
 
 - Clone this repo:
 ```
-git clone https://github.com/anasty17/mirror-leech-telegram-bot mirrorbot/ && cd mirrorbot
+git clone https://github.com/aashath/mirror-leech-telegram-bot mirrorbot/ && cd mirrorbot
 ```
 
 - Install requirements
@@ -237,11 +241,11 @@ sudo dockerd
 ```
 - Build Docker image:
 ```
-sudo docker build . -t mirror-bot
+sudo docker build . -t c2p-bot
 ```
 - Run the image:
 ```
-sudo docker run -p 80:80 mirror-bot
+sudo docker run -p 80:80 c2p-bot
 ```
 ### OR
 
@@ -283,9 +287,6 @@ sudo docker image prune -a
 - Tutorial video from Tortoolkit repo
 <p><a href="https://youtu.be/c8_TU1sPK08"> <img src="https://img.shields.io/badge/See%20Video-black?style=for-the-badge&logo=YouTube" width="160""/></a></p>
 
-## Deploying on Heroku
-- Deploying on Heroku with Github Workflow
-<p><a href="https://telegra.ph/Heroku-Deployment-10-04"> <img src="https://img.shields.io/badge/Deploy%20Guide-blueviolet?style=for-the-badge&logo=heroku" width="170""/></a></p>
 
 - Deploying on Heroku with heroku-cli and Goorm IDE
 <p><a href="https://telegra.ph/How-to-Deploy-a-Mirror-Bot-to-Heroku-with-CLI-05-06"> <img src="https://img.shields.io/badge/Deploy%20Guide-grey?style=for-the-badge&logo=telegraph" width="170""/></a></p>
