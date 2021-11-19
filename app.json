@@ -1,5 +1,9 @@
 {
-"website": "",
-  "repository": "",
+"website": "c2ptech.com",
+  "repository": "aashath0317/test2",
+  "env": {
+    "CONFIG_FILE_URL" : {
+      "description": "See Readme in github https://github.com/aashath0317/c2ptech-mirror-bot",
+      "value": "https://gist.githubusercontent/.../raw/.../config.env
   "stack": "container"
  }
